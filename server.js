@@ -20,7 +20,7 @@ server.use(
     origin: true
   })
 )
-
+ 
 server.options('*', cors);
 
 // server.get('/', welcomeBot);
